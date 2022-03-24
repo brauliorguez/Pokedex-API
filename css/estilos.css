@@ -124,7 +124,7 @@ li .bliblioteca{
   
   .caja-img{
       /*colocamos como fondo una imagen utlizando z-index*/
-        background-image: url(/img/fondo-img.png);
+        background-image: url(https://github.com/brauliorguez/Pokedex-API/blob/d8561c4815612851dd9c915f2dbb33972e32484a/img/fondo-img.png?raw=true);
         /*la imagen se ajusta a la caja*/
         background-size: cover;
         background-repeat: no-repeat;
