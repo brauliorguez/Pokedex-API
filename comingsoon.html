@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> categorias | Proximamente </title>
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Estilos CSS -->
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!-- creamos una Barra de navegacion -->
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img class="logo navbar-brand " src="img/logo.png" alt="logo">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <button class="btn btn-primary menuh"  onclick="openNav()">
+                    Biblioteca <i class="fa fa-bank"></i>
+                </button> 
+            </li>
+          </ul>
+          <!--
+          <div class="form-inline my-2 my-lg-0" id="formulario">
+            <input id="pokename2" class="form-control mr-sm-2" type="search" placeholder="Eje. Pikachu" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" onclick="findPokemon()" id="search-button">Buscar</button>
+          </div>
+          -->
+        </div>
+      </nav>
+      <div id="nav" class="nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- Mostraremos las categorias de los pokemons -->
+        <div class="wrapper">
+            <button onclick="coming()">
+                <div class="icon bug">
+                        <img src="img/iconos/bug.svg" alt="Bug">
+                        <span class="title">BUG</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon dark">
+                        <img src="img/iconos/dark.svg" alt="Dark">
+                        <span class="title">DARK</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon dragon">
+                        <img src="img/iconos/dragon.svg" alt="Dragon">
+                        <span class="title">DRAGON</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon electric">
+                        <img src="img/iconos/electric.svg" alt="Electric">
+                        <span class="title">ELECTRIC</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon fairy">
+                        <img src="img/iconos/fairy.svg" alt="Fairy">
+                        <span class="title">FAIRY</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon fighting">
+                        <img src="img/iconos/fighting.svg" alt="Fighting">
+                        <span class="title">FIGHTING</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon fire">
+                        <img src="img/iconos/fire.svg" alt="Fire">
+                        <span class="title">FIRE</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon flying">
+                        <img src="img/iconos/flying.svg" alt="Flying">
+                        <span class="title">FLYING</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon ghost">
+                        <img src="img/iconos/ghost.svg" alt="Ghost">
+                        <span class="title">GHOST</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon grass">
+                        <img src="img/iconos/grass.svg" alt="Grass">
+                        <span class="title">GRASS</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon ground">
+                        <img src="img/iconos/ground.svg" alt="Ground">
+                        <span class="title">GROUND</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon ice">
+                        <img src="img/iconos/ice.svg" alt="Ice">
+                        <span class="title">ICE</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon normal">
+                        <img src="img/iconos/normal.svg" alt="Normal">
+                        <span class="title">NORMAL</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon poison">
+                        <img src="img/iconos/poison.svg" alt="Poison">
+                        <span class="title">POISON</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon psychic">
+                        <img src="img/iconos/psychic.svg" alt="Psychic">
+                        <span class="title">PSYCHIC</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon rock">
+                        <img src="img/iconos/rock.svg" alt="Rock">
+                        <span class="title">ROCK</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon steel">
+                        <img src="img/iconos/steel.svg" alt="Steel">
+                        <span class="title">STEEL</span>
+                </div>
+            </button>
+            <button onclick="coming()">
+                <div class="icon water">
+                        <img src="img/iconos/water.svg" alt="Water">
+                        <span class="title">WATER</span>
+                </div>
+            </button>    
+        </div>
+    </div>
+
+
+    <div class="container">
+        <img class="ops" src="img/site-construccion.png" />
+        <br />
+        <h3> <strong>Sitio en construccion. </strong> </h3>
+        <p>Lamentamos los inconvenientes estamonos en mantenimiento.</p>
+        <hr>
+        <a class="buton" href="index.html">Volver</a>
+    </div>
+    <script src="js/app.js"></script> <!-- Path: Pokedex-API\pokedex.js -->
+    <script src="js/animaciones.js"></script>
+
+</body>
+</html>
